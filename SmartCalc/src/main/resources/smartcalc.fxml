@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vBox" alignment="CENTER" fillWidth="false" maxHeight="240.0" maxWidth="420.0" minHeight="240.0" minWidth="420.0" prefHeight="240.0" prefWidth="420.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.musatov.smartcalc.view.main.MainWindowControllerImpl">
+   <MenuBar fx:id="menuBar" maxHeight="0.0" maxWidth="0.0" minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="0.0" visible="false">
+     <menus>
+       <Menu mnemonicParsing="false" text="File">
+         <items>
+           <MenuItem mnemonicParsing="false" text="Close" />
+         </items>
+       </Menu>
+       <Menu mnemonicParsing="false" text="Edit">
+         <items>
+           <MenuItem mnemonicParsing="false" text="Delete" />
+         </items>
+       </Menu>
+       <Menu mnemonicParsing="false" text="Help">
+         <items>
+           <MenuItem mnemonicParsing="false" text="About" />
+         </items>
+       </Menu>
+     </menus>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </MenuBar>
+   <StackPane prefHeight="150.0" prefWidth="200.0">
+      <children>
+                <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="420.0">
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="100.0" />
+                        <ColumnConstraints percentWidth="100.0" />
+                        <ColumnConstraints percentWidth="100.0" />
+                        <ColumnConstraints percentWidth="100.0" />
+                        <ColumnConstraints percentWidth="100.0" />
+                        <ColumnConstraints percentWidth="100.0" />
+                        <ColumnConstraints percentWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints percentHeight="100.0" />
+                        <RowConstraints percentHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints percentHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints percentHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints percentHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints percentHeight="100.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button7Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="7" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button4Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="4" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button8Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="8" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button5Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="5" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="divButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#divButton" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="÷" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button1Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="1" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button2Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="2" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button9Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="9" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="mulButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#mulButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="×" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="minusButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#minusButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="-" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button6Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="6" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button3Click" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="3" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="plusButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#plusButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="+" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="button0Click" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#button0Click" prefHeight="40.0" prefWidth="120.0" styleClass="grey_button" stylesheets="@button.css" text="0" textFill="WHITE" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="dotButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#dotButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="grey_button" stylesheets="@button.css" text="." textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="acButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#acButtonClick" prefHeight="40.0" prefWidth="120.0" styleClass="darkgrey_button" stylesheets="@button.css" text="AC" textFill="WHITE" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="atanButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#atanButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="atan" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="asinButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#asinButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="asin" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="sinButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#sinButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="sin" textFill="WHITE" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="cosButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#cosButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="cos" textFill="WHITE" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="acosButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#acosButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="acos" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="logButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#logButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="log" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="lnButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#lnButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="ln" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="powButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#powButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="^" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="plotButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#plotButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="plot" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="tanButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#tanButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="tan" textFill="WHITE" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="bsButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#bsButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="⌫" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="modButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#modButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="mod" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="leftBracketButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#leftBracketButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="(" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="rightBracketButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#rightBracketButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text=")" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="sqrtButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#sqrtButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="sqrt" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button fx:id="resultButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#resultButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="=" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <Button depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#xButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="darkgrey_button" stylesheets="@button.css" text="x" textFill="WHITE" GridPane.rowIndex="5" fx:id="xButton">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+               </Button>
+                        <TextField fx:id="inputField" alignment="CENTER_RIGHT" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="360.0" promptText="Expression" style="-fx-border-color: black; -fx-border-width: 0.5; -fx-background-color: rgb(50, 50, 50); -fx-text-fill: white; -fx-alignment: center-right;" GridPane.columnSpan="6">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+                        </TextField>
+                        <Button fx:id="listButton" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#listButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="List" textFill="WHITE" GridPane.columnIndex="6">
+                            <font>
+                                <Font name="Helvetica Neue Light" size="17.0" />
+                            </font>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+                        </Button>
+                    </children>
+                </GridPane>
+         <ListView fx:id="historyList" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" onKeyPressed="#RestoreExpression" onMouseClicked="#RestoreExpression" prefHeight="201.0" prefWidth="360.0" style="-fx-background-color: rgb(80, 80, 80); -fx-text-fill: white; -fx-control-inner-background: rgb(80, 80, 80);" visible="false">
+            <StackPane.margin>
+               <Insets right="60.0" top="41.0" />
+            </StackPane.margin>
+         </ListView>
+         <Button fx:id="clearButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clearButtonClick" prefHeight="40.0" prefWidth="60.0" styleClass="red_button" stylesheets="@button.css" text="Clear" textFill="WHITE" visible="false">
+            <font>
+               <Font name="Helvetica Neue Light" size="16.0" />
+            </font>
+            <StackPane.margin>
+               <Insets bottom="120.0" left="360.0" />
+            </StackPane.margin>
+         </Button>
+      </children>
+   </StackPane>
+   <padding>
+      <Insets top="1.0" />
+   </padding>
+</VBox>

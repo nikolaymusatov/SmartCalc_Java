@@ -1,0 +1,42 @@
+.red_button
+{
+    -fx-background-color : rgb(255, 171, 57);
+    -fx-border-color : black;
+    -fx-border-width : 0.5;
+    -fx-text-fill: white;
+}
+
+.red_button:pressed
+{
+    -fx-background-color : linear-gradient(#FF7832, #FF9739);
+    -fx-border-color : black;
+    -fx-border-width : 0.5;
+}
+
+.grey_button
+{
+    -fx-background-color : rgb(120, 120, 120);
+    -fx-border-color : black;
+    -fx-border-width : 0.5;
+}
+
+.grey_button:pressed
+{
+    -fx-background-color : linear-gradient(#BEBEBE, #D7D7D7);
+    -fx-border-color : black;
+    -fx-border-width : 0.5;
+}
+
+.darkgrey_button
+{
+    -fx-background-color : rgb(80, 80, 80);
+    -fx-border-color : black;
+    -fx-border-width : 0.5;
+}
+
+.darkgrey_button:pressed
+{
+    -fx-background-color : linear-gradient(#BEBEBE, #D7D7D7);
+    -fx-border-color : black;
+    -fx-border-width : 0.5;
+}

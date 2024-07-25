@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="608.0" style="-fx-background-color: rgb(220, 220, 220);" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="402.0" prefWidth="608.0" text="Product Version&#10;SmartCalc 3.0 Java Desktop&#10;&#10;Developer&#10;Nikolay Musatov (https://github.com/nikolaymusatov)&#10;&#10;Brief information:&#10;SmartCalc is used as a calculator with advanced features.&#10;In particular, it supports calculating the values ​​of expressions,&#10;plotting functions, and also finding the value of a function&#10;from a variable.&#10;&#10;Usage:&#10;To calculate the value of an expression, you need to write the&#10;expression itself in the text field labeled “expression” and click&#10;the equal button. The result will be displayed in the same text field.&#10;&#10;To plot a function graph, you need to write the function in the text field&#10;labeled “expression” and click the plot button. This will open a window&#10;in which a graph of the function will be plotted, and controls will also&#10;be displayed. With their help, you can select the range of values ​​​​and&#10;the domain of definition displayed on the graph.&#10;&#10;The calculator supports calculating the value of an expression&#10;depending on the variable X. To do this, enter the expression in the&#10;text field labeled “expression” and click the plot button. Then in the&#10;&quot;Enter X value&quot; field you must enter the value of the variable.&#10;The result will be shown in the &quot;F(X) value&quot; field.&#10;&#10;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </TextArea>
+   </children>
+</VBox>

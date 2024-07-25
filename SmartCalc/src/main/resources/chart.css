@@ -1,0 +1,22 @@
+.chart {
+    -fx-background-color: rgb(50, 50, 50);
+}
+
+.chart-plot-background {
+    -fx-background-color: rgb(50, 50, 50);
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-stroke: rgb(255, 171, 57);
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: rgb(120, 120, 120);
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: rgb(120, 120, 120);
+}
+
+.axis-label { -fx-text-fill: #008800; }
