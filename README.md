@@ -51,20 +51,26 @@ Building an application consists of two stages:
 1. Building an executable jar file with all dependencies. To do this, you need to run the `mvn package` command in the project directory. After this, the "target" directory will appear in which all the compiled classes, the dynamic C++ model library and the executable jar file "SmartCalc.jar" will be located.
 2. Assembling the installer (application image). To build the installer, Jpackage is used, which is called using exec-maven-plugin. By default, Jpackage is configured to build a dmg-file to work with MacOS. To build the installer for other operating systems, you must independently change the type of the final output file in the jpackage configuration described in pom.xml in the exec-maven-plugin section. To build the installer, you need to run the command `mvn exec:exec@compile-installer`. After that, the "installer" folder will appear in the "target" folder, which will contain the final installer file.  
 After this, you need to run the installer file and drag the SmartCalc icon into the Applications folder  
-<img src="./misc/installer.png" width="500"/>
+<div align="center">
+    <img src="./misc/installer.png" width="500"/>
+</div>
 
 ## Usage
 To calculate the value of an expression, you need to write the
 expression itself in the text field labeled “expression” and click
 the equal button. The result will be displayed in the same text field.  
-<img src="./misc/mainwindow.png" width="500"/>
+<div align="center">
+    <img src="./misc/mainwindow.png" width="500"/>
+</div>
 
 To plot a function graph, you need to write the function in the text field
 labeled “expression” and click the plot button. This will open a window
 in which a graph of the function will be plotted, and controls will also
 be displayed. With their help, you can select the range of values ​​​​and
 the domain of definition displayed on the graph.  
-<img src="./misc/graph.png" width="500"/>
+<div align="center">
+    <img src="./misc/graph.png" width="500"/>
+</div>
 
 The calculator supports calculating the value of an expression
 depending on the variable X. To do this, enter the expression in the
@@ -73,4 +79,6 @@ text field labeled “expression” and click the plot button. Then in the
 The result will be shown in the "F(X) value" field.
 
 To view the calculation history, click the "List" button. You can select an expression from the list displayed by clicking on it.  
-<img src="./misc/history.png" width="500"/>
+<div align="center">
+    <img src="./misc/history.png" width="500"/>
+</div>
